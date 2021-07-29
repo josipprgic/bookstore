@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: development
+management:
+  endpoints:
+    web:
+      exposure:
+        include: 'prometheus'
+version: @project.version@

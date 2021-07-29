@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost/bookstore_jprgic_test
+    username: bookstore_jprgic
+    password: bookstore_jprgic
+  flyway:
+    enabled: true
+    user: bookstore_jprgic
+    password: bookstore_jprgic
+    url: jdbc:postgresql://localhost/bookstore_jprgic_test
+    schemas: public
