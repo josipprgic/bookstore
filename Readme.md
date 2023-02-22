@@ -1,4 +1,6 @@
-# Huddle interview task - bookstore
+# Simple bookstore Application
+
+Application saves some books and authors in a DB. There is a way to retrieve and buy some books. A simple loyalty system is introduced; after 10 purchased books you can get one for free (however it ca't be a newly released book).
 
 ## Authors
 
